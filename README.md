@@ -1,10 +1,24 @@
 # piseth_phon_shop
 
-A new Flutter project.
+A new Flutter project for managing and showcasing phone shop products.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+### Features
+
+- Product listing
+- Product details
+- Shopping cart
+- User-friendly UI
+
+## Screenshots
+
+<!-- Replace these with your actual image paths -->
+![Home Screen](assets/images/logo.jpg)
+
+## Resources
 
 A few resources to get you started if this is your first Flutter project:
 

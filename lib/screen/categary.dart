@@ -234,7 +234,7 @@ class _CategaryState extends State<Categary> {
             ],
           ),
           Row(
-             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 10),
@@ -251,186 +251,203 @@ class _CategaryState extends State<Categary> {
                     ),
                     Padding(
                       padding: const EdgeInsets.only(left: 200),
-                      child: TextButton(onPressed: () {}, 
-                      child: Text("See All",style: TextStyle(
-                        fontSize: 18
-                      ),),
-                      ),
-                    )
-                  ]
-                ),
-              ),
-            ],
-          ),
-           Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 6),
-                      child: Container(
-                        height: 195,
-                        width: 120,
-                        child: DecoratedBox(
-                          decoration: BoxDecoration(
-                            border: Border.all(
-                              color: const Color.fromARGB(255, 206, 18, 18),
-                            ),
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Stack(
-                            children: [
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.network(
-                                  'https://i5.walmartimages.com/seo/Verizon-Apple-iPhone-15-Plus-256GB-Green_6d244cdd-91b7-459d-a06f-ac2fb4985ac6.cd60b0df29b9f2aa78eb5c0cafe3a346.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF',
-                                  fit: BoxFit.cover,
-                                  height: 195,
-                                  width: double.infinity,
-                                ),
-                              ),
-                              Positioned(
-                                bottom: 10,
-                                right: 5,
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 120,
-                                    height: 36,
-                                    child: TextButton(
-                                      onPressed: () {},
-                                      child: Text(
-                                        'មើលទាំងអស់',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                      style: TextButton.styleFrom(
-                                        foregroundColor: Colors.red[600],
-                                        shape: RoundedRectangleBorder(
-                                          borderRadius: BorderRadius.circular(
-                                            18,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                    SizedBox(width: 10,),
-                    Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Container(
-                        height: 195,
-                        width: 120,
-                        child: DecoratedBox(
-                          decoration: BoxDecoration(
-                            border: Border.all(color: Colors.grey),
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Stack(
-                            children: [
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.network(
-                                  'https://www.upfrica.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDhRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5a7efeda642783ff0c1c4af34b7d9f795a6959cd/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2REdOdmJuWmxjblE2Q1hkbFluQT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--6ebee877eb446e7a3476cc7c3aed153245b974c5/techno-phone-r30pro-smartphone-8gb256gb-62-inch-android-100.jpg?h=1400',
-                                  fit: BoxFit.cover,
-                                  width: double.infinity,
-                                  height: 195,
-                                ),
-                              ),
-                              Positioned(
-                                bottom: 10,
-                                right: 5,
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 120,
-                                    height: 36,
-                                    child: TextButton(
-                                      onPressed: () {},
-                                      child: Text(
-                                        'មើលទាំងអស់',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                      style: TextButton.styleFrom(
-                                        foregroundColor: Colors.yellow[400],
-                                        shape: RoundedRectangleBorder(
-                                          borderRadius: BorderRadius.circular(
-                                            18,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                     Padding(
-                      padding: const EdgeInsets.only(right: 5),
-                      child: Container(
-                        height: 195,
-                        width: 120,
-                        child: DecoratedBox(
-                          decoration: BoxDecoration(
-                            border: Border.all(color: Colors.grey),
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Stack(
-                            children: [
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.network(
-                                  'https://www.samsungplaza.com.np/public/files/A46BBED0905004D-010-galaxy-a36-5g-awesomeblack-front.jpgq',
-                                  fit: BoxFit.cover,
-                                  width: double.infinity,
-                                  height: 195,
-                                ),
-                              ),
-                              Positioned(
-                                bottom: 10,
-                                right: 5,
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 120,
-                                    height: 36,
-                                    child: TextButton(
-                                      onPressed: () {},
-                                      child: Text(
-                                        'មើលទាំងអស់',
-                                        style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                      style: TextButton.styleFrom(
-                                        foregroundColor: Colors.yellow[400],
-                                        shape: RoundedRectangleBorder(
-                                          borderRadius: BorderRadius.circular(
-                                            18,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
+                      child: TextButton(
+                        onPressed: () {},
+                        child: Text("See All", style: TextStyle(fontSize: 18)),
                       ),
                     ),
                   ],
                 ),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 6),
+                child: Container(
+                  height: 195,
+                  width: 120,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 206, 18, 18),
+                      ),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(
+                            'https://i5.walmartimages.com/seo/Verizon-Apple-iPhone-15-Plus-256GB-Green_6d244cdd-91b7-459d-a06f-ac2fb4985ac6.cd60b0df29b9f2aa78eb5c0cafe3a346.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF',
+                            fit: BoxFit.cover,
+                            height: 195,
+                            width: double.infinity,
+                          ),
+                        ),
+                        Positioned(
+                          bottom: 10,
+                          right: 5,
+                          child: Center(
+                            child: SizedBox(
+                              width: 120,
+                              height: 36,
+                              child: TextButton(
+                                onPressed: () {},
+                                child: Text(
+                                  'មើលទាំងអស់',
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                style: TextButton.styleFrom(
+                                  foregroundColor: Colors.red[600],
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(18),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(width: 10),
+              Padding(
+                padding: const EdgeInsets.only(right: 10),
+                child: Container(
+                  height: 200,
+                  width: 120,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(
+                            'https://www.upfrica.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDhRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5a7efeda642783ff0c1c4af34b7d9f795a6959cd/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2REdOdmJuWmxjblE2Q1hkbFluQT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--6ebee877eb446e7a3476cc7c3aed153245b974c5/techno-phone-r30pro-smartphone-8gb256gb-62-inch-android-100.jpg?h=1400',
+                            fit: BoxFit.cover,
+                            width: double.infinity,
+                            height: 120,
+                          ),
+                        ),
+                        Positioned(
+                          bottom: 10,
+                          right: 5,
+                          child: Center(
+                            child: SizedBox(
+                              width: 120,
+                              height: 36,
+                              child: TextButton(
+                                onPressed: () {},
+                                child: Text(
+                                  'មើលទាំងអស់',
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                style: TextButton.styleFrom(
+                                  foregroundColor: Colors.yellow[400],
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(18),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            Column(
+                              children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 116,right: 15),
+                                    child: Text("\$130",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black,
+                                    ),
+                                   ),
+                                  ), 
+                                   Text(
+                                      "Vivo A17",
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 12,
+                                  ),
+                                ),   
+                              ],
+                            ) 
+                          ]
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(right: 5),
+                child: Container(
+                  height: 195,
+                  width: 120,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.grey),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Stack(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(
+                            'https://www.samsungplaza.com.np/public/files/A46BBED0905004D-010-galaxy-a36-5g-awesomeblack-front.jpgq',
+                            fit: BoxFit.cover,
+                            width: double.infinity,
+                            height: 195,
+                          ),
+                        ),
+                        Positioned(
+                          bottom: 10,
+                          right: 5,
+                          child: Center(
+                            child: SizedBox(
+                              width: 120,
+                              height: 36,
+                              child: TextButton(
+                                onPressed: () {},
+                                child: Text(
+                                  'មើលទាំងអស់',
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                style: TextButton.styleFrom(
+                                  foregroundColor: Colors.yellow[400],
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(18),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -440,6 +457,3 @@ class _CategaryState extends State<Categary> {
 
 
 
-// test 
-
-// from test brannch

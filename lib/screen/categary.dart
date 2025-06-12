@@ -390,7 +390,7 @@ class _CategaryState extends State<Categary> {
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: Image.network(
-                                  'https://www.samsungplaza.com.np/public/files/A46BBED0905004D-010-galaxy-a36-5g-awesomeblack-front.jpg',
+                                  'https://www.samsungplaza.com.np/public/files/A46BBED0905004D-010-galaxy-a36-5g-awesomeblack-front.jpgq',
                                   fit: BoxFit.cover,
                                   width: double.infinity,
                                   height: 195,
@@ -436,3 +436,8 @@ class _CategaryState extends State<Categary> {
     );
   }
 }
+
+
+
+
+// test 

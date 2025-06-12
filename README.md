@@ -16,7 +16,7 @@ This project is a starting point for a Flutter application.
 ## Screenshots
 
 <!-- Replace these with your actual image paths -->
-![Home Screen](assets/images/logo.jpg)
+![Home Screen](https://github.com/PORMENGLYHORNG/MyProject/blob/main/assets/images/Logo.jpg)
 
 ## Resources
 

@@ -1,6 +1,7 @@
 import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:piseth_phon_shop/model/model.dart';
 import 'package:piseth_phon_shop/screen/welcom_screen.dart';
 
 class Categary extends StatefulWidget {
@@ -237,12 +238,12 @@ class _CategaryState extends State<Categary> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 10),
+                padding: const EdgeInsets.only(left: 15),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Best Saler",
+                      "Best Saller",
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: "Raleway-Italic.ttf",
@@ -250,7 +251,7 @@ class _CategaryState extends State<Categary> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 200),
+                      padding: const EdgeInsets.only(left: 190),
                       child: TextButton(
                         onPressed: () {},
                         child: Text("See All", style: TextStyle(fontSize: 18)),
@@ -264,218 +265,10 @@ class _CategaryState extends State<Categary> {
           Row(
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 6),
+                padding: const EdgeInsets.only(left: 12),
                 child: Container(
-                  height: 195,
-                  width: 120,
-                  child: DecoratedBox(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: const Color.fromARGB(255, 206, 18, 18),
-                      ),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Stack(
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: Image.network(
-                            'https://i5.walmartimages.com/seo/Verizon-Apple-iPhone-15-Plus-256GB-Green_6d244cdd-91b7-459d-a06f-ac2fb4985ac6.cd60b0df29b9f2aa78eb5c0cafe3a346.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF',
-                            fit: BoxFit.cover,
-                            height: 195,
-                            width: double.infinity,
-                          ),
-                        ),
-                        Positioned(
-                          bottom: 10,
-                          right: 5,
-                          child: Center(
-                            child: SizedBox(
-                              width: 120,
-                              height: 36,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  'មើលទាំងអស់',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                style: TextButton.styleFrom(
-                                  foregroundColor: Colors.red[600],
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-              SizedBox(width: 10),
-              Padding(
-                padding: const EdgeInsets.only(right: 10),
-                child: Container(
-                  height: 200,
-                  width: 120,
-                  child: DecoratedBox(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Stack(
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: Image.network(
-                            'https://www.upfrica.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDhRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5a7efeda642783ff0c1c4af34b7d9f795a6959cd/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2REdOdmJuWmxjblE2Q1hkbFluQT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--6ebee877eb446e7a3476cc7c3aed153245b974c5/techno-phone-r30pro-smartphone-8gb256gb-62-inch-android-100.jpg?h=1400',
-                            fit: BoxFit.cover,
-                            width: double.infinity,
-                            height: 120,
-                          ),
-                        ),
-                        Positioned(
-                          bottom: 10,
-                          right: 5,
-                          child: Center(
-                            child: SizedBox(
-                              width: 120,
-                              height: 36,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  'មើលទាំងអស់',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                style: TextButton.styleFrom(
-                                  foregroundColor: Colors.yellow[400],
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Row(
-                          children: [
-                            Column(
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.only(
-                                    top: 116,
-                                    right: 15,
-                                  ),
-                                  child: Text(
-                                    "\$130",
-                                    style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.black,
-                                    ),
-                                  ),
-                                ),
-                                Text(
-                                  "Vivo A17",
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(right: 5),
-                child: Container(
-                  height: 195,
-                  width: 120,
-                  child: DecoratedBox(
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Stack(
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: Image.network(
-                            'https://www.samsungplaza.com.np/public/files/A46BBED0905004D-010-galaxy-a36-5g-awesomeblack-front.jpgq',
-                            fit: BoxFit.cover,
-                            width: double.infinity,
-                            height: 195,
-                          ),
-                        ),
-                        Positioned(
-                          bottom: 10,
-                          right: 5,
-                          child: Center(
-                            child: SizedBox(
-                              width: 120,
-                              height: 36,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  'មើលទាំងអស់',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                style: TextButton.styleFrom(
-                                  foregroundColor: Colors.yellow[400],
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(18),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Row(
-                children: [
-                  Text(
-                    "Phone",
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.blueAccent[700],
-                    ),
-                  ),
-                ],
-              ),
-              TextButton(onPressed: () {}, child: Text("See All")),
-            ],
-          ),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: [
-                Container(
                   width: 180,
                   height: 300,
-                  margin: EdgeInsets.only(left: 10),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(15),
@@ -531,6 +324,192 @@ class _CategaryState extends State<Categary> {
                     ],
                   ),
                 ),
+              ),
+              SizedBox(width: 10),
+              Container(
+                width: 180,
+                height: 300,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.2),
+                      blurRadius: 6,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
+                  border: Border.all(color: Colors.black12),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.network(
+                        'https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/tile/Apple-iPhone-16-Pro-hero-240909-lp.jpg.news_app_ed.jpg',
+                        height: 200,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 45, left: 55),
+                      child: Container(   
+                        child: Row(
+                          children: [
+                            RawMaterialButton(
+                              onPressed: () => {
+                                 Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => Model()),
+                                )
+                              },
+                              fillColor: Colors.blue,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.only(
+                                  top: 2,
+                                  bottom: 5,
+                                ),
+                                child: Text(
+                                  'Shop Now',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 15,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Row(
+                  children: [
+                    Text(
+                      "Phone",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.blueAccent[700],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(5.0),
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text("See All", style: TextStyle(fontSize: 15)),
+                ),
+              ),
+            ],
+          ),
+
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                Container(
+                  width: 180,
+                  height: 300,
+                  margin: EdgeInsets.only(left: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.2),
+                        blurRadius: 6,
+                        offset: Offset(0, 2),
+                      ),
+                    ],
+                    border: Border.all(color: Colors.black12),
+                  ),
+                  child: Stack(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Image.network(
+                              'https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/tile/Apple-iPhone-16-Pro-hero-240909-lp.jpg.news_app_ed.jpg',
+                              height: 200,
+                              width: double.infinity,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 45, left: 70),
+                            child: Row(
+                              children: [
+                                RawMaterialButton(
+                                  onPressed: () => {},
+                                  fillColor: Colors.blue,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(
+                                      top: 2,
+                                      bottom: 5,
+                                    ),
+                                    child: Text(
+                                      'See All',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 15,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 205, left: 5),
+                            child: Text(
+                              "\$1230",
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 225, left: 5),
+                            child: Text("Iphone 12 pro max"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
                 Row(
                   children: [
                     Container(
@@ -567,13 +546,13 @@ class _CategaryState extends State<Categary> {
                               Padding(
                                 padding: const EdgeInsets.only(
                                   top: 45,
-                                  left: 50,
+                                  left: 85,
                                 ),
                                 child: Row(
                                   children: [
                                     RawMaterialButton(
                                       onPressed: () => {},
-                                      fillColor: Colors.blue,
+
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(5),
                                       ),
@@ -585,8 +564,9 @@ class _CategaryState extends State<Categary> {
                                         child: Text(
                                           'Shop Now',
                                           style: TextStyle(
-                                            color: Colors.white,
-                                            fontSize: 15,
+                                            color: Colors.yellow[700],
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.bold,
                                           ),
                                         ),
                                       ),
@@ -609,6 +589,20 @@ class _CategaryState extends State<Categary> {
                                     fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                   ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  top: 225,
+                                  left: 5,
+                                ),
+                                child: Text(
+                                  "Iphone 12 pro max",
+                                  style: TextStyle(fontSize: 14),
                                 ),
                               ),
                             ],
@@ -660,7 +654,7 @@ class _CategaryState extends State<Categary> {
                                   children: [
                                     RawMaterialButton(
                                       onPressed: () => {},
-                                      
+
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(5),
                                       ),
@@ -674,7 +668,7 @@ class _CategaryState extends State<Categary> {
                                           style: TextStyle(
                                             color: Colors.yellow[700],
                                             fontSize: 12,
-                                            fontWeight: FontWeight.bold
+                                            fontWeight: FontWeight.bold,
                                           ),
                                         ),
                                       ),
